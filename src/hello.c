@@ -8,7 +8,7 @@ void good_bye(int SIGNUM) {
 
 int main() {
 
-        connect(SIGNUM, good_bye);
+        signal(SIGNUM, good_bye);
 
         while(1) {
         printf("I am getting crazy to say you \"Hello World\" . Let me getout by pressing CTRL+C.\n");
