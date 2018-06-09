@@ -12,7 +12,7 @@ int main() {
         signal(SIGINT, good_bye);
 
         while(1) {
-        printf("I am getting crazy to say you \"Hello World\" . Let me getout by pressing CTRL+C.\n");
+                printf("Hello World. I am crazy. Let me getout by pressing CTRL+C.\n");
         }
         
         return 0;
